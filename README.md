@@ -1,87 +1,94 @@
-# Project Overview
+# 📌 Netflix Data Analysis Project
+# 📖 Project Overview
 
-This project performs an in-depth analysis of Netflix’s movies and TV shows dataset using SQL. The goal is to extract meaningful business insights by querying, cleaning, and transforming real-world data, similar to tasks performed by data analysts in industry projects.
+    This project focuses on analyzing Netflix content data to understand content distribution, growth trends, audience targeting, and business insights.
 
-The project focuses on content trends, country-wise distribution, popular actors and directors, ratings analysis, and keyword-based content classification.
+    The analysis was performed using Python (Pandas, Matplotlib, Seaborn), Advanced SQL, and Power BI Dashboarding.
+
+     The goal of this project is to perform end-to-end Data Cleaning, Exploratory Data Analysis (EDA), and Visualization to extract meaningful business insights.
 
 # 🎯 Objectives
 
-Analyze Netflix content distribution across countries and years
+    Analyze Movies vs TV Shows distribution
+    Identify yearly content growth trends
+    Understand rating and target audience distribution
+    Determine top countries and genres
+    Extract business insights from content strategy
 
-Identify top actors and directors based on movie appearances
+# 🛠 Tools & Technologies Used
+    Python
+    Pandas (Data Cleaning & Manipulation)
+    Matplotlib (Visualization)
+    Seaborn (Advanced Visualizations)
+    Advanced SQL
+    Aggregations
+    Joins
+    Subqueries
+    Group By Analysis
+    Power BI
+    Interactive Dashboard
+    KPI Cards
+    Trend Analysis
+    Country & Genre Breakdown
 
-Understand genre and rating trends
+# 🧹 Data Cleaning Performed
 
-Categorize content based on sensitive keywords in descriptions
+    Handled missing values in important columns
+    Extracted year from date_added
+    Cleaned duration column for numerical analysis
+     Split and standardized genre column
+     Categorized ratings into age groups (Kids, Teens, Adults)
 
-Strengthen SQL skills through real-world business problems
+#📊 Key Analysis Performed
+## 1️⃣ Content Distribution
+     Compared Movies vs TV Shows
 
-# 🗂 Dataset Information
+## 2️⃣ Yearly Growth Trend
+    Identified peak content addition period (2016–2019)
 
-Source: Netflix Movies and TV Shows dataset
+## 3️⃣ Rating Analysis
+     Found dominance of TV-MA and TV-14 ratings
 
-Format: CSV
+## 4️⃣ Country Analysis
+    US contributes majority content
+     International content showing growth
 
-Key Columns:
+## 5️⃣ Genre Analysis
+    Drama and International TV Shows are highly dominant
 
-title
+## 6️⃣ Duration Analysis
+    Most movies range between 90–120 minutes
+    Most TV Shows have 1–2 seasons
 
-type (Movie / TV Show)
+## 📈 Key Business Insights
+    Netflix aggressively expanded content between 2016–2019.
+    Platform focuses heavily on adult audience content.
+    TV Shows show increasing trend in recent years, indicating retention strategy.
+     International content is rising, showing global expansion strategy.
 
-director
+## 📊 Power BI Dashboard Features
+    Movies vs TV Shows KPI
+    Year-wise content growth
+    Country-wise distribution
+    Genre popularity visualization
+    Rating segmentation
 
-casts
+# 📌 Conclusion
 
-country
+    This project demonstrates strong understanding of:
+     Data Cleaning
+     Exploratory Data Analysis
+     Business Insight Generation
+     Data Visualization
+     SQL-based data querying
+     Dashboard creation
+    The analysis highlights Netflix’s content growth strategy, audience targeting focus, and global expansion trends.
 
-date_added
+# 🚀 Skills Demonstrated
 
-release_year
-
-rating
-
-duration
-
-listed_in
-
-description
-
-🛠 Tools & Technologies
-
-MySQL
-
-# SQL Concepts Used:
-
-Joins
-
-Subqueries
-
-CASE Statements
-
-Window Functions (RANK, DENSE_RANK)
-
-String Functions
-
-JSON_TABLE / String Splitting
-
-Excel
-
-Data Cleaning
-
-Handling missing & inconsistent values
-
-# 🔍 Key Analysis Performed
-
-Country-wise content distribution on Netflix
-
-Year-wise content growth analysis
-
-Top 10 actors with the highest number of Indian movies
-
-Top directors by content count
-
-Most common content ratings
-
-Keyword-based content categorization (Good vs Bad)
-
-Movie vs TV Show comparison
+✔ Data Cleaning
+✔ EDA
+✔ Data Visualization
+✔ SQL Querying
+✔ Business Insight Extraction
+✔ Dashboard Development
